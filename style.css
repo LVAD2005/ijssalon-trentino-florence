@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 60px;
+    color: #242223;
+}
+nav{
+    background-color: black;
+    height: 80px;
+}
+.navbar{
+    line-height: 80px;
+    padding-left: 20px;
+}
+.navbar img{
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-top: 15px;
+    padding-right: 20px;
+}
+.navbar h1{
+    font-size: 3.5vw;
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+}
+.welkomoverlay{
+    background: url(/welkom.jpg);
+    background-size: cover;
+    height: auto;
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+}
+.welkom{
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+}
+.teamoverlay{
+    height: auto;
+    width: 100%;
+    background-color: blue;
+}
+.team{
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    background-color: purple;
+    display: flex;
+    flex-wrap:wrap;
+}
+.box{
+    width: 300px;
+    height: 400px;
+    background-color: green;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+.team img{
+    padding-top: 20px;
+    margin: auto;
+    width: 250px;
+    height: auto;
+    display: flex;
+    border-radius: 50px;
+}
+@media (max-width:660px) {
+    .navbar h1{
+        font-size: 6vw;
+    }
+    h1{
+        font-size: 8vw;
+    }
+}
