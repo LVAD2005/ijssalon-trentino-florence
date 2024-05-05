@@ -115,3 +115,7 @@ nav{
         font-size: 8vw;
     }
 }
+@font-face {
+    font-family: 'Trentino';
+    src: url(/Spring\ LP\ Regular.ttf);
+}
