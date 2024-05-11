@@ -62,9 +62,10 @@ nav{
     text-align: center;
 }
 .bannerteam h1{
-    font-size: 3.5vw;
+    font-family: Trentino;
+    font-size: 50px;
     color: white;
-    font-family: "Bebas Neue", sans-serif;
+    padding-top: 13px;
 }
 .teamoverlay{
     height: auto;
@@ -91,6 +92,7 @@ nav{
     justify-content: center;
     text-align: center;
     margin: 10px;
+    border-radius: 24px;
 }
 .box h1{
     font-size: 40px;
@@ -162,7 +164,7 @@ nav{
     margin-bottom: 10px;
     border: 5px solid #242223;
 }
-@media (max-width:660px) {
+@media (max-width:850px) {
     .navbar h1{
         font-size: 6vw;
     }
@@ -183,7 +185,7 @@ nav{
     }
     .feedbox{
         text-align: center;
-        width: 300px;
+        width: auto;
         height: auto;
         margin: 10px;
         display: inline-block;
