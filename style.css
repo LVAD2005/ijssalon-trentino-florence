@@ -114,6 +114,12 @@ nav{
     line-height: 80px;
     text-align: center;
 }
+.bannerfeed h1{
+    font-family: Trentino;
+    font-size: 50px;
+    color: white;
+    padding-top: 13px;
+}
 .feedoverlay{
     height: 100%;
     width: 100%;
@@ -127,6 +133,8 @@ nav{
     padding: 20px;
     margin-top: 50px;
     align-items: center;
+    display: table;
+    border-spacing: 20px 20px;
     justify-content: center;
     background-color: purple;
 }
@@ -135,7 +143,7 @@ nav{
     width: 300px;
     height: auto;
     margin: 10px;
-    display: inline-block;
+    display: table-cell;
     background-color: gray;
     align-items: center;
     border: 5px solid #242223;
@@ -149,7 +157,6 @@ nav{
 .feedbox img{
     width: auto;
     height: 250px;
-    object-fit:scale-down;
     display: flex;
     margin: auto;
     margin-bottom: 10px;
@@ -161,6 +168,28 @@ nav{
     }
     h1{
         font-size: 8vw;
+    }
+    .feed{
+        width: 80%;
+        height: auto;
+        margin: auto;
+        padding: 20px;
+        margin-top: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        background-color: purple;
+    }
+    .feedbox{
+        text-align: center;
+        width: 300px;
+        height: auto;
+        margin: 10px;
+        display: inline-block;
+        background-color: gray;
+        align-items: center;
+        border: 5px solid #242223;
     }
 }
 @font-face {
