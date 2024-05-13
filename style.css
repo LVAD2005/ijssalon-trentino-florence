@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
 }
+
 h1{
     /* font-family: "Bebas Neue", sans-serif; */
     font-size: 60px;
@@ -130,10 +131,12 @@ nav{
     padding-top: 13px;
 }
 .teamoverlay{
-    height: 100%;
+    height: auto;
+    min-height: 90vh;
     width: 100%;
-    background: url(/images/Trentino2.jpeg) no-repeat;
+    background: url(/images/Trentino2.jpeg);
     background-size: cover;
+    background-position: center;
 }
 .team{
     width: 80%;
@@ -143,22 +146,27 @@ nav{
     margin-top: 50px;
     align-items: center;
     justify-content: center;
-    background-color: purple;
+    background-color: #282627;
+    border: 5px solid white;
     display: flex;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
+
 }
 .box{
     width: 300px;
-    height: 400px;
+    height: 300px;
     background-color: white;
     align-items: center;
     justify-content: center;
+    box-shadow: 8px 8px #800000;
     text-align: center;
+    border: 5px solid #800000;
     margin: 10px;
     border-radius: 24px;
 }
 .box h1{
     font-size: 40px;
+    color: black;
 }
 .box h2{
     font-size: 30px;
@@ -227,6 +235,67 @@ nav{
     margin-bottom: 10px;
     border: 5px solid #242223;
 }
+.bannerlocatie{
+    width: 100%;
+    background-color: black;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+}
+.bannerlocatie h1{
+    font-family: Trentino;
+    font-size: 50px;
+    color: white;
+    padding-top: 13px;
+}
+.locatie{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    padding: 20px;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+    background-color: #282627;
+    border: 5px solid white;
+    display: flex;
+}
+.maps{
+   display: flex;
+}
+
+.mapleft{
+    width: auto;
+    height: auto;
+    margin: 20px;
+
+}
+.mapright{
+    max-width: 300px;
+    height: auto;
+    margin: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+}
+.class3{
+    margin: 20px;
+    text-align: left;
+    color: white;
+}
+th{
+    text-align: right;
+    color: white;
+    padding-right: 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+td{
+    color: #800000;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
 @media (max-width:850px) {
     .navbar h1{
         font-size: 6vw;
@@ -272,6 +341,23 @@ nav{
     }
     .right img{
         width: auto;
+    }
+    .locatie{
+        width: 80%;
+    }
+    .maps{
+        flex-direction: column;
+    }
+    .mapleft{
+        margin: 0;
+    }
+    .mapright{
+        margin: 0;
+        margin-top: 10px;
+    }
+    .class3{
+        margin: 0;
+        margin-top: 10px;
     }
 }
 @font-face {
