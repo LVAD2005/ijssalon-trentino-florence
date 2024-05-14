@@ -86,7 +86,7 @@ nav{
     text-decoration: none;
     border: 2px solid white;
     text-align: center;
-    background-color: #800000;
+    background-color: #d73037;
     width: 200px;
 }
 .menu li{
@@ -158,9 +158,9 @@ nav{
     background-color: white;
     align-items: center;
     justify-content: center;
-    box-shadow: 8px 8px #800000;
+    box-shadow: 8px 8px #d73037;
     text-align: center;
-    border: 5px solid #800000;
+    border: 5px solid #d73037;
     margin: 10px;
     border-radius: 24px;
 }
@@ -291,7 +291,7 @@ th{
     font-family: Arial, Helvetica, sans-serif;
 }
 td{
-    color: #800000;
+    color: #d73037;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
@@ -339,9 +339,7 @@ td{
     .right{
         margin-top: 20px;
     }
-    .right img{
-        width: auto;
-    }
+
     .locatie{
         width: 80%;
     }
