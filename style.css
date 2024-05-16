@@ -6,7 +6,7 @@
 }
 
 h1{
-    /* font-family: "Bebas Neue", sans-serif; */
+    font-family: "Bebas Neue", sans-serif;
     font-size: 60px;
     color: white;
 }
@@ -301,7 +301,7 @@ td{
         font-size: 6vw;
     }
     h1{
-        font-size: 8vw;
+        font-size: 9vw;
     }
     h2{
         font-size: 6vw;
